@@ -1,4 +1,4 @@
-const Workout = require("../models/Movie");
+const Movie = require("../models/Movie");
 const { errorHandler } = require('../auth');
 
 module.exports.createMovie = (req, res) => {
